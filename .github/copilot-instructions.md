@@ -56,6 +56,7 @@ When working with Flipper Zero file generation:
 
 - Minimize new dependencies - prefer vanilla JavaScript solutions
 - If adding libraries, use CDN links to maintain the static nature of the site
+- Always pin specific versions in CDN URLs to ensure reproducible builds and avoid breaking changes (e.g., `@5.1.3` instead of `@latest`)
 - Ensure any new dependencies are compatible with the existing Bootstrap/jQuery setup
 
 ## Community and Contributions
